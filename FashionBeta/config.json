@@ -1,0 +1,13 @@
+{
+    "rootPath": "./",
+    "detectModelPath": "./detect/weights/ssd300_COCO_115000.pth",
+    "categoryModelPath": "./classify/weights/zero_Resnet152_49Epoch.pth",
+	"attrModelPath": "./classify/weights/Resnet152_64_49_Epoch.pth",
+    "detectNamePath": "./detect/cfg/detect.names",
+    "categoryNamePath": "./classify/cfg/category.names",
+	"attrNamePath": "./classify/cfg/attr.names",
+	"detectSavePath": "./detect/result/detect.json",
+    "categorySavePath": "./classify/result/category.json",
+	"attrSavePath": "./classify/result/attributes.json",
+	"detectThresh": 0.5
+}

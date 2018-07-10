@@ -1,0 +1,3 @@
+49 epochtop1 acc : 59.24
+top3 acc : 82.14
+top5 acc : 90.21

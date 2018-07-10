@@ -1,0 +1,715 @@
+nohup: ignoring input
+Deepfashion Consumer-to-shop Attribute prediction using single model
+arch           is: Resnet152
+gpuId          is: 1
+num_classs     is: 257
+batch size     is: 16
+input_size     is: 224
+relative_path  is: ../Img/
+test_path      is: ../NewAnno/list_bbx_image_attr_test.txt
+resume         is: 
+Conv_Type      is: 2
+Branch         is: 17
+Conv_Num       is: 5
+49  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.2782399101107305, 'fitness_of_clothes': 0.8686208723291542, 'graphic_elements_texture': 0.4744475138121547, 'style_of_clothes': 0.4513710368466152, 'type_of_collars': 0.7418321277731929, 'fabric_of_clothes': 0.5887787976414808, 'type_of_dresses': 0.5226219888820259, 'type_of_sleeves': 0.9008942378807234, 'length_of_trousers': 0.9436619718309859, 'design_of_dresses': 0.6021814006888634, 'type_of_trousers': 0.7762962962962963, 'thickness_of_clothes': 0.9982638888888888, 'type_of_waistlines': 0.8075346174673165, 'length_of_dresses': 0.8664583616356474, 'length_of_sleeves': 0.8306161802086073, 'type_of_clothes_buttons': 0.7721948735359022, 'length_of_upper_body_clothes': 0.8114389089897022}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.35575128219068847, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6042488818731913, 'style_of_clothes': 0.6170889949810259, 'type_of_collars': 0.8680033011311229, 'fabric_of_clothes': 0.7229955625797824, 'type_of_dresses': 0.7165688696726374, 'type_of_sleeves': 0.9487662206683252, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8263490241102182, 'type_of_trousers': 0.8844444444444445, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.964492921791599, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.941800333070383, 'type_of_clothes_buttons': 0.9409268375488032, 'length_of_upper_body_clothes': 1.0}
+
+
+48  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.32793272803059137, 'fitness_of_clothes': 0.8052269115309907, 'graphic_elements_texture': 0.4662917653249145, 'style_of_clothes': 0.4392214469335292, 'type_of_collars': 0.815864847808146, 'fabric_of_clothes': 0.6121208437177071, 'type_of_dresses': 0.5131253860407659, 'type_of_sleeves': 0.9155516708128824, 'length_of_trousers': 0.8732394366197183, 'design_of_dresses': 0.619307309605817, 'type_of_trousers': 0.8162962962962963, 'thickness_of_clothes': 0.9988425925925926, 'type_of_waistlines': 0.7731105438230061, 'length_of_dresses': 0.8748811302812118, 'length_of_sleeves': 0.864449119116487, 'type_of_clothes_buttons': 0.7927346800203701, 'length_of_upper_body_clothes': 0.8704425271360979}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.41095344243280957, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.5990199947382268, 'style_of_clothes': 0.615803647937324, 'type_of_collars': 0.9146075052186999, 'fabric_of_clothes': 0.7420825481733633, 'type_of_dresses': 0.685840024706609, 'type_of_sleeves': 0.9560949371344046, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8510332950631458, 'type_of_trousers': 0.9259259259259259, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9522704417111472, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9564378999035849, 'type_of_clothes_buttons': 0.972500424376167, 'length_of_upper_body_clothes': 1.0}
+
+
+47  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.3483571648634444, 'fitness_of_clothes': 0.8783330390252516, 'graphic_elements_texture': 0.46967903183372794, 'style_of_clothes': 0.4535744889215326, 'type_of_collars': 0.8314481285499296, 'fabric_of_clothes': 0.6022734180292991, 'type_of_dresses': 0.5057906114885732, 'type_of_sleeves': 0.8770927183486855, 'length_of_trousers': 0.9225352112676056, 'design_of_dresses': 0.662743972445465, 'type_of_trousers': 0.7659259259259259, 'thickness_of_clothes': 0.9969618055555556, 'type_of_waistlines': 0.8278022743095846, 'length_of_dresses': 0.8787528868360277, 'length_of_sleeves': 0.8628714173021299, 'type_of_clothes_buttons': 0.7940926837548803, 'length_of_upper_body_clothes': 0.8729473977177846}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.43250149513401837, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6054985530123652, 'style_of_clothes': 0.6158954584404456, 'type_of_collars': 0.9210155832807417, 'fabric_of_clothes': 0.7412315360768342, 'type_of_dresses': 0.6852223594811612, 'type_of_sleeves': 0.9409668526860754, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8676808266360505, 'type_of_trousers': 0.9362962962962963, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9740078904618241, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9552546235428171, 'type_of_clothes_buttons': 0.9696146664403327, 'length_of_upper_body_clothes': 1.0}
+
+
+46  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.357056126424908, 'fitness_of_clothes': 0.8781564541762317, 'graphic_elements_texture': 0.47947908445146015, 'style_of_clothes': 0.4729771085812217, 'type_of_collars': 0.864022525365309, 'fabric_of_clothes': 0.6068324114035621, 'type_of_dresses': 0.5206917850525016, 'type_of_sleeves': 0.9032474954615747, 'length_of_trousers': 0.9507042253521126, 'design_of_dresses': 0.6584385763490241, 'type_of_trousers': 0.7437037037037038, 'thickness_of_clothes': 0.9973958333333334, 'type_of_waistlines': 0.8411851164229907, 'length_of_dresses': 0.8649639994565955, 'length_of_sleeves': 0.8252695240599527, 'type_of_clothes_buttons': 0.7791546426752674, 'length_of_upper_body_clothes': 0.8602838853325911}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.44141793073451857, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6163509602736122, 'style_of_clothes': 0.6421532623332109, 'type_of_collars': 0.9344628380018447, 'fabric_of_clothes': 0.7411099629201873, 'type_of_dresses': 0.7023625694873379, 'type_of_sleeves': 0.9548846903785383, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8553386911595867, 'type_of_trousers': 0.9096296296296297, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9760191846522782, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9382066789376807, 'type_of_clothes_buttons': 0.9519606178916992, 'length_of_upper_body_clothes': 1.0}
+
+
+45  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.38829989669983145, 'fitness_of_clothes': 0.8710930602154335, 'graphic_elements_texture': 0.47892002104709286, 'style_of_clothes': 0.45948096462235277, 'type_of_collars': 0.8704791494732754, 'fabric_of_clothes': 0.6252507446355845, 'type_of_dresses': 0.5339715873996294, 'type_of_sleeves': 0.8889934781147045, 'length_of_trousers': 0.9295774647887324, 'design_of_dresses': 0.7250287026406429, 'type_of_trousers': 0.802962962962963, 'thickness_of_clothes': 0.9984085648148148, 'type_of_waistlines': 0.8349965189139011, 'length_of_dresses': 0.8707376715120229, 'length_of_sleeves': 0.8600227890262074, 'type_of_clothes_buttons': 0.7969784416907146, 'length_of_upper_body_clothes': 0.8889507375452268}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.46731546421645914, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6202644041041832, 'style_of_clothes': 0.6279532378504101, 'type_of_collars': 0.94324967231419, 'fabric_of_clothes': 0.7521731201750653, 'type_of_dresses': 0.7132489190858554, 'type_of_sleeves': 0.9448665366772003, 'length_of_trousers': 1.0, 'design_of_dresses': 0.9002104860313815, 'type_of_trousers': 0.9111111111111111, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9810474201284134, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9535016215268648, 'type_of_clothes_buttons': 0.9604481412323884, 'length_of_upper_body_clothes': 1.0}
+
+
+44  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.39007593468529694, 'fitness_of_clothes': 0.8359526752604627, 'graphic_elements_texture': 0.47783478032096816, 'style_of_clothes': 0.4583792385848941, 'type_of_collars': 0.8694111364629351, 'fabric_of_clothes': 0.6351589569023159, 'type_of_dresses': 0.5149011735639284, 'type_of_sleeves': 0.914341424057016, 'length_of_trousers': 0.9436619718309859, 'design_of_dresses': 0.6743207041714504, 'type_of_trousers': 0.8577777777777778, 'thickness_of_clothes': 0.9985532407407407, 'type_of_waistlines': 0.8448982749284444, 'length_of_dresses': 0.8723678847982611, 'length_of_sleeves': 0.8762380576737663, 'type_of_clothes_buttons': 0.7827194024783568, 'length_of_upper_body_clothes': 0.8843584748121347}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.47101252288008116, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6098724019994738, 'style_of_clothes': 0.62146529562982, 'type_of_collars': 0.9415991067527549, 'fabric_of_clothes': 0.7566105403926813, 'type_of_dresses': 0.6973440395305744, 'type_of_sleeves': 0.9577758354064412, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8759089169536931, 'type_of_trousers': 0.9525925925925925, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9812021350661406, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9619160312034358, 'type_of_clothes_buttons': 0.9684264131726362, 'length_of_upper_body_clothes': 1.0}
+
+
+43  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.3702495514597945, 'fitness_of_clothes': 0.8668550238389546, 'graphic_elements_texture': 0.47392133649039725, 'style_of_clothes': 0.46502019831068675, 'type_of_collars': 0.8631486965386669, 'fabric_of_clothes': 0.5695094523129293, 'type_of_dresses': 0.5094193946880791, 'type_of_sleeves': 0.9177032206010892, 'length_of_trousers': 0.9366197183098591, 'design_of_dresses': 0.689628779181018, 'type_of_trousers': 0.7748148148148148, 'thickness_of_clothes': 0.9986979166666666, 'type_of_waistlines': 0.8052138934014079, 'length_of_dresses': 0.874677353620432, 'length_of_sleeves': 0.8713734770794986, 'type_of_clothes_buttons': 0.7944321846885078, 'length_of_upper_body_clothes': 0.9139994433620929}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.45439388173036843, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6076690344646146, 'style_of_clothes': 0.6305851389398948, 'type_of_collars': 0.9431525802223409, 'fabric_of_clothes': 0.7096833019269345, 'type_of_dresses': 0.6938696726374305, 'type_of_sleeves': 0.9604652726416997, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8719862227324914, 'type_of_trousers': 0.9259259259259259, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9558288852788737, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9573582259619599, 'type_of_clothes_buttons': 0.9582413851638092, 'length_of_upper_body_clothes': 1.0}
+
+
+42  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4089599304083075, 'fitness_of_clothes': 0.888398375419389, 'graphic_elements_texture': 0.47878847671665353, 'style_of_clothes': 0.47095727751254746, 'type_of_collars': 0.8663041895237633, 'fabric_of_clothes': 0.6323019877211111, 'type_of_dresses': 0.5291846819024089, 'type_of_sleeves': 0.9030457876689303, 'length_of_trousers': 0.9366197183098591, 'design_of_dresses': 0.7011098354381936, 'type_of_trousers': 0.7985185185185185, 'thickness_of_clothes': 0.9981192129629629, 'type_of_waistlines': 0.8345323741007195, 'length_of_dresses': 0.8766471946746366, 'length_of_sleeves': 0.8598036637742134, 'type_of_clothes_buttons': 0.7784756408080122, 'length_of_upper_body_clothes': 0.8645978291121625}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.48429656209789956, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6132925545908972, 'style_of_clothes': 0.6353592851022157, 'type_of_collars': 0.9397543570076218, 'fabric_of_clothes': 0.763297064008267, 'type_of_dresses': 0.7029030265596047, 'type_of_sleeves': 0.9507832985947691, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8920780711825488, 'type_of_trousers': 0.9392592592592592, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9834455016631856, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9528004207204839, 'type_of_clothes_buttons': 0.9602783907655746, 'length_of_upper_body_clothes': 1.0}
+
+
+41  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4450968665615542, 'fitness_of_clothes': 0.8816881511566308, 'graphic_elements_texture': 0.48773349118652987, 'style_of_clothes': 0.47068184600318275, 'type_of_collars': 0.9025680858294092, 'fabric_of_clothes': 0.631207829311288, 'type_of_dresses': 0.5445491043854231, 'type_of_sleeves': 0.9138707725408458, 'length_of_trousers': 0.9577464788732394, 'design_of_dresses': 0.6858017604286261, 'type_of_trousers': 0.8311111111111111, 'thickness_of_clothes': 0.9982638888888888, 'type_of_waistlines': 0.8738299682834377, 'length_of_dresses': 0.8678168727075126, 'length_of_sleeves': 0.8535366815671838, 'type_of_clothes_buttons': 0.7927346800203701, 'length_of_upper_body_clothes': 0.9202616198163095}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5140905054459124, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6208234675085503, 'style_of_clothes': 0.6257191822744522, 'type_of_collars': 0.9586387688722754, 'fabric_of_clothes': 0.7567929001276518, 'type_of_dresses': 0.7220506485484868, 'type_of_sleeves': 0.9552208700329456, 'length_of_trousers': 1.0, 'design_of_dresses': 0.883945656333716, 'type_of_trousers': 0.96, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9905623887986386, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9492067665877816, 'type_of_clothes_buttons': 0.9633338991682228, 'length_of_upper_body_clothes': 1.0}
+
+
+40  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.3544101922832962, 'fitness_of_clothes': 0.8815115663076108, 'graphic_elements_texture': 0.47142199421204944, 'style_of_clothes': 0.45945036112131227, 'type_of_collars': 0.8572746249817952, 'fabric_of_clothes': 0.605738252993739, 'type_of_dresses': 0.5130481778875849, 'type_of_sleeves': 0.9125260539232166, 'length_of_trousers': 0.9436619718309859, 'design_of_dresses': 0.5984500574052812, 'type_of_trousers': 0.7288888888888889, 'thickness_of_clothes': 0.9986979166666666, 'type_of_waistlines': 0.8215363193316315, 'length_of_dresses': 0.8625866050808314, 'length_of_sleeves': 0.8495047769304934, 'type_of_clothes_buttons': 0.7923951790867425, 'length_of_upper_body_clothes': 0.8665460617868077}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.43587234273908554, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6044133122862405, 'style_of_clothes': 0.6189252050434569, 'type_of_collars': 0.9398514490994708, 'fabric_of_clothes': 0.7399550179320407, 'type_of_dresses': 0.6919394688079061, 'type_of_sleeves': 0.9544812747932495, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8200344431687715, 'type_of_trousers': 0.8888888888888888, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9647249941981898, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9493820667893768, 'type_of_clothes_buttons': 0.9645221524359192, 'length_of_upper_body_clothes': 1.0}
+
+
+39  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.40528099458127187, 'fitness_of_clothes': 0.8633233268585555, 'graphic_elements_texture': 0.47951197053406996, 'style_of_clothes': 0.46630554535438856, 'type_of_collars': 0.8767901354434682, 'fabric_of_clothes': 0.6226977083459972, 'type_of_dresses': 0.5247066090179123, 'type_of_sleeves': 0.9121898742688093, 'length_of_trousers': 0.9647887323943662, 'design_of_dresses': 0.7090508993494068, 'type_of_trousers': 0.8118518518518518, 'thickness_of_clothes': 0.9984085648148148, 'type_of_waistlines': 0.8568113251334416, 'length_of_dresses': 0.8663225105284608, 'length_of_sleeves': 0.8662897712332369, 'type_of_clothes_buttons': 0.7944321846885078, 'length_of_upper_body_clothes': 0.9224881714444754}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.4914913282226934, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6183570113128124, 'style_of_clothes': 0.6303709144326111, 'type_of_collars': 0.9511626777998932, 'fabric_of_clothes': 0.752963345693271, 'type_of_dresses': 0.7069178505250154, 'type_of_sleeves': 0.9571034760976266, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8958094144661309, 'type_of_trousers': 0.9511111111111111, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9832134292565947, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9563064247523885, 'type_of_clothes_buttons': 0.9704634187744017, 'length_of_upper_body_clothes': 1.0}
+
+
+38  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.43956940140270756, 'fitness_of_clothes': 0.8995232209076461, 'graphic_elements_texture': 0.4864180478821363, 'style_of_clothes': 0.4740788346186804, 'type_of_collars': 0.8937327054711394, 'fabric_of_clothes': 0.6021518448726522, 'type_of_dresses': 0.5259419394688079, 'type_of_sleeves': 0.9017683049821825, 'length_of_trousers': 0.971830985915493, 'design_of_dresses': 0.7389016456180635, 'type_of_trousers': 0.7540740740740741, 'thickness_of_clothes': 0.9986979166666666, 'type_of_waistlines': 0.869111162682757, 'length_of_dresses': 0.8752207580491781, 'length_of_sleeves': 0.8669909720396178, 'type_of_clothes_buttons': 0.7903581734849771, 'length_of_upper_body_clothes': 0.9389089897021987}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5183131263705395, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6249013417521705, 'style_of_clothes': 0.6395213612437263, 'type_of_collars': 0.9586387688722754, 'fabric_of_clothes': 0.7478572731140964, 'type_of_dresses': 0.7067634342186535, 'type_of_sleeves': 0.9521952531432798, 'length_of_trousers': 1.0, 'design_of_dresses': 0.9194412552621508, 'type_of_trousers': 0.9333333333333333, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9858435831979577, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9583662021211324, 'type_of_clothes_buttons': 0.9677474113053811, 'length_of_upper_body_clothes': 1.0}
+
+
+37  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4424509324199424, 'fitness_of_clothes': 0.896168108776267, 'graphic_elements_texture': 0.4999013417521705, 'style_of_clothes': 0.5002448280083241, 'type_of_collars': 0.904024467207146, 'fabric_of_clothes': 0.6253723177922315, 'type_of_dresses': 0.5315009264978382, 'type_of_sleeves': 0.9212667249378068, 'length_of_trousers': 0.9788732394366197, 'design_of_dresses': 0.7152698048220436, 'type_of_trousers': 0.7985185185185185, 'thickness_of_clothes': 0.9986979166666666, 'type_of_waistlines': 0.8511642299063975, 'length_of_dresses': 0.8725037359054476, 'length_of_sleeves': 0.8752300815145937, 'type_of_clothes_buttons': 0.7857749108810049, 'length_of_upper_body_clothes': 0.9355691622599499}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.515540332372823, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6334517232307287, 'style_of_clothes': 0.6553739747827152, 'type_of_collars': 0.9632991892810331, 'fabric_of_clothes': 0.768342350009118, 'type_of_dresses': 0.7146386658431131, 'type_of_sleeves': 0.9591205540240705, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8989667049368542, 'type_of_trousers': 0.9466666666666667, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9786493385936412, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9589797528267158, 'type_of_clothes_buttons': 0.964691902902733, 'length_of_upper_body_clothes': 1.0}
+
+
+36  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.41506732633791843, 'fitness_of_clothes': 0.7965742539290129, 'graphic_elements_texture': 0.48072875559063405, 'style_of_clothes': 0.4506059493206023, 'type_of_collars': 0.898296033788048, 'fabric_of_clothes': 0.5986262233298888, 'type_of_dresses': 0.5164453366275479, 'type_of_sleeves': 0.9212667249378068, 'length_of_trousers': 0.9647887323943662, 'design_of_dresses': 0.5739571373899732, 'type_of_trousers': 0.914074074074074, 'thickness_of_clothes': 0.9988425925925926, 'type_of_waistlines': 0.8540264562543514, 'length_of_dresses': 0.8719603314767015, 'length_of_sleeves': 0.8643176439652905, 'type_of_clothes_buttons': 0.7934136818876252, 'length_of_upper_body_clothes': 0.9510158641803507}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.49256057558128996, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6104314654038411, 'style_of_clothes': 0.6018790549638878, 'type_of_collars': 0.953492888004272, 'fabric_of_clothes': 0.738070634004012, 'type_of_dresses': 0.6897004323656578, 'type_of_sleeves': 0.9624823505681436, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8482587064676617, 'type_of_trousers': 0.9525925925925925, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9754003249013692, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.954816373038829, 'type_of_clothes_buttons': 0.9814971991172976, 'length_of_upper_body_clothes': 1.0}
+
+
+35  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.406422733286214, 'fitness_of_clothes': 0.8876920360233092, 'graphic_elements_texture': 0.48474085766903446, 'style_of_clothes': 0.48127065736320235, 'type_of_collars': 0.877469780086412, 'fabric_of_clothes': 0.6581970700869249, 'type_of_dresses': 0.5190704138357011, 'type_of_sleeves': 0.9103745041350098, 'length_of_trousers': 0.9366197183098591, 'design_of_dresses': 0.6717374665135859, 'type_of_trousers': 0.7985185185185185, 'thickness_of_clothes': 0.9988425925925926, 'type_of_waistlines': 0.8700394523091205, 'length_of_dresses': 0.8757641624779242, 'length_of_sleeves': 0.8373214129196248, 'type_of_clothes_buttons': 0.7823799015447293, 'length_of_upper_body_clothes': 0.904536598942388}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.48478587868573186, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6187516443041305, 'style_of_clothes': 0.633492471538744, 'type_of_collars': 0.9568425651730667, 'fabric_of_clothes': 0.7770956172877028, 'type_of_dresses': 0.7069178505250154, 'type_of_sleeves': 0.9540106232770793, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8837543053960965, 'type_of_trousers': 0.9155555555555556, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9834455016631856, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9437724603383294, 'type_of_clothes_buttons': 0.9638431505686641, 'length_of_upper_body_clothes': 1.0}
+
+
+34  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.41544790590623243, 'fitness_of_clothes': 0.891930072399788, 'graphic_elements_texture': 0.4933241252302026, 'style_of_clothes': 0.5115069163912351, 'type_of_collars': 0.8865478906743046, 'fabric_of_clothes': 0.6411160415780196, 'type_of_dresses': 0.512816553428042, 'type_of_sleeves': 0.9161567941908155, 'length_of_trousers': 0.9436619718309859, 'design_of_dresses': 0.6725985457328741, 'type_of_trousers': 0.7748148148148148, 'thickness_of_clothes': 0.9989872685185185, 'type_of_waistlines': 0.8606791985766226, 'length_of_dresses': 0.8717565548159217, 'length_of_sleeves': 0.8661144710316417, 'type_of_clothes_buttons': 0.7767781361398743, 'length_of_upper_body_clothes': 0.9149735596994155}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.49625763424491204, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6353591160220995, 'style_of_clothes': 0.6762455624923491, 'type_of_collars': 0.9573765716782368, 'fabric_of_clothes': 0.7883411342775515, 'type_of_dresses': 0.6956454601605929, 'type_of_sleeves': 0.9598601492637665, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8768656716417911, 'type_of_trousers': 0.9451851851851852, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9830587143188675, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.956876150407573, 'type_of_clothes_buttons': 0.9590901374978781, 'length_of_upper_body_clothes': 1.0}
+
+
+33  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4156110114355099, 'fitness_of_clothes': 0.8815115663076108, 'graphic_elements_texture': 0.500394632991318, 'style_of_clothes': 0.49375688578773413, 'type_of_collars': 0.893344337103743, 'fabric_of_clothes': 0.6205701781046745, 'type_of_dresses': 0.519147621988882, 'type_of_sleeves': 0.9214011967995697, 'length_of_trousers': 0.971830985915493, 'design_of_dresses': 0.6710677382319173, 'type_of_trousers': 0.8562962962962963, 'thickness_of_clothes': 0.9986979166666666, 'type_of_waistlines': 0.87174131662412, 'length_of_dresses': 0.866390436082054, 'length_of_sleeves': 0.8520904549040231, 'type_of_clothes_buttons': 0.7817008996774741, 'length_of_upper_body_clothes': 0.9201224603395491}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.4996828503597383, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6355564325177585, 'style_of_clothes': 0.656781735830579, 'type_of_collars': 0.9592698674692947, 'fabric_of_clothes': 0.7660932466111483, 'type_of_dresses': 0.7073038912909203, 'type_of_sleeves': 0.9622134068446178, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8754305396096441, 'type_of_trousers': 0.9496296296296296, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9896340991722751, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9513980191077219, 'type_of_clothes_buttons': 0.9679171617721949, 'length_of_upper_body_clothes': 1.0}
+
+
+32  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.419598035484514, 'fitness_of_clothes': 0.8788627935723115, 'graphic_elements_texture': 0.4992436200999737, 'style_of_clothes': 0.5044375076508752, 'type_of_collars': 0.8998980533035584, 'fabric_of_clothes': 0.6403866026381375, 'type_of_dresses': 0.5220815318097591, 'type_of_sleeves': 0.9238216903113023, 'length_of_trousers': 0.9295774647887324, 'design_of_dresses': 0.6377726750861079, 'type_of_trousers': 0.8251851851851851, 'thickness_of_clothes': 0.9989872685185185, 'type_of_waistlines': 0.8647017869575307, 'length_of_dresses': 0.8694470859937509, 'length_of_sleeves': 0.8482338504689281, 'type_of_clothes_buttons': 0.7862841622814463, 'length_of_upper_body_clothes': 0.9043974394656276}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.4974356186230269, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6332872928176796, 'style_of_clothes': 0.6577304443628351, 'type_of_collars': 0.9638817418321278, 'fabric_of_clothes': 0.7811075314570542, 'type_of_dresses': 0.7178042001235331, 'type_of_sleeves': 0.96093592415787, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8653846153846154, 'type_of_trousers': 0.9185185185185185, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9825945695056858, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9469716890174423, 'type_of_clothes_buttons': 0.9711424206416568, 'length_of_upper_body_clothes': 1.0}
+
+
+31  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4505155947008826, 'fitness_of_clothes': 0.8583789510859968, 'graphic_elements_texture': 0.5025322283609577, 'style_of_clothes': 0.5050801811727261, 'type_of_collars': 0.8961114617214427, 'fabric_of_clothes': 0.6333353595526108, 'type_of_dresses': 0.5150555898702903, 'type_of_sleeves': 0.9219390842466214, 'length_of_trousers': 0.9647887323943662, 'design_of_dresses': 0.6308840413318025, 'type_of_trousers': 0.8696296296296296, 'thickness_of_clothes': 0.9988425925925926, 'type_of_waistlines': 0.8720507464995745, 'length_of_dresses': 0.8678847982611059, 'length_of_sleeves': 0.8752300815145937, 'type_of_clothes_buttons': 0.7978271940247835, 'length_of_upper_body_clothes': 0.9444753687726134}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5229344497000671, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6365101289134438, 'style_of_clothes': 0.6528032806953116, 'type_of_collars': 0.9596096897907666, 'fabric_of_clothes': 0.7682815634307945, 'type_of_dresses': 0.7063001852995676, 'type_of_sleeves': 0.9601963289181739, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8651932644469957, 'type_of_trousers': 0.9451851851851852, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9872360176375029, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9588482776755193, 'type_of_clothes_buttons': 0.9789509421150908, 'length_of_upper_body_clothes': 1.0}
+
+
+30  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4443357074249262, 'fitness_of_clothes': 0.8802754723644711, 'graphic_elements_texture': 0.5091423309655354, 'style_of_clothes': 0.5170767535806097, 'type_of_collars': 0.8959172775377445, 'fabric_of_clothes': 0.6555224606406905, 'type_of_dresses': 0.5374459542927733, 'type_of_sleeves': 0.9195858266657702, 'length_of_trousers': 0.9577464788732394, 'design_of_dresses': 0.6854190585533869, 'type_of_trousers': 0.8488888888888889, 'thickness_of_clothes': 0.9989872685185185, 'type_of_waistlines': 0.8749129728475284, 'length_of_dresses': 0.8610922429017797, 'length_of_sleeves': 0.8584450872118503, 'type_of_clothes_buttons': 0.7754201324053641, 'length_of_upper_body_clothes': 0.9297244642360145}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5198354446437956, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6449947382267824, 'style_of_clothes': 0.6714714163300282, 'type_of_collars': 0.9616000776736735, 'fabric_of_clothes': 0.793933499483314, 'type_of_dresses': 0.7231315626930204, 'type_of_sleeves': 0.9610703960196328, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8776310753922695, 'type_of_trousers': 0.9333333333333333, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9889378819525025, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9510035936541327, 'type_of_clothes_buttons': 0.9643524019691054, 'length_of_upper_body_clothes': 1.0}
+
+
+29  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.46320158031135034, 'fitness_of_clothes': 0.8785096238742716, 'graphic_elements_texture': 0.5056892922915023, 'style_of_clothes': 0.5256151303709145, 'type_of_collars': 0.9006747900383514, 'fabric_of_clothes': 0.6429396389277248, 'type_of_dresses': 0.5294935145151328, 'type_of_sleeves': 0.9220063201775028, 'length_of_trousers': 0.971830985915493, 'design_of_dresses': 0.6865671641791045, 'type_of_trousers': 0.845925925925926, 'thickness_of_clothes': 0.9986979166666666, 'type_of_waistlines': 0.8776978417266187, 'length_of_dresses': 0.8681565004754789, 'length_of_sleeves': 0.8890349723902182, 'type_of_clothes_buttons': 0.8029197080291971, 'length_of_upper_body_clothes': 0.9492067909824659}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5341343627104514, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6393712181004999, 'style_of_clothes': 0.6844473007712082, 'type_of_collars': 0.9638331957862032, 'fabric_of_clothes': 0.78311348854173, 'type_of_dresses': 0.7184990735021618, 'type_of_sleeves': 0.9622134068446178, 'length_of_trousers': 1.0, 'design_of_dresses': 0.891982395713739, 'type_of_trousers': 0.9525925925925925, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9900982439854568, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9687089140152512, 'type_of_clothes_buttons': 0.9735189271770497, 'length_of_upper_body_clothes': 1.0}
+
+
+28  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4674060783993911, 'fitness_of_clothes': 0.8799223026664312, 'graphic_elements_texture': 0.5095698500394633, 'style_of_clothes': 0.5165258905618803, 'type_of_collars': 0.9123258410602456, 'fabric_of_clothes': 0.6257370372621726, 'type_of_dresses': 0.5785206917850525, 'type_of_sleeves': 0.9259732400995092, 'length_of_trousers': 0.9436619718309859, 'design_of_dresses': 0.7002487562189055, 'type_of_trousers': 0.8622222222222222, 'thickness_of_clothes': 0.9984085648148148, 'type_of_waistlines': 0.8925504757484335, 'length_of_dresses': 0.8589865507403885, 'length_of_sleeves': 0.864229993864493, 'type_of_clothes_buttons': 0.7694788660668817, 'length_of_upper_body_clothes': 0.9226273309212357}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5348411533373204, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6446001052354644, 'style_of_clothes': 0.6827641082139797, 'type_of_collars': 0.9671828729549978, 'fabric_of_clothes': 0.7830527019634065, 'type_of_dresses': 0.7334774552192711, 'type_of_sleeves': 0.9605325085725812, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8873899732108688, 'type_of_trousers': 0.9481481481481482, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9974472035275006, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9537207467788588, 'type_of_clothes_buttons': 0.9575623832965541, 'length_of_upper_body_clothes': 1.0}
+
+
+27  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4288588049801555, 'fitness_of_clothes': 0.8634999117075755, 'graphic_elements_texture': 0.5119376479873717, 'style_of_clothes': 0.5206267597013098, 'type_of_collars': 0.8923248701393272, 'fabric_of_clothes': 0.6589872956051304, 'type_of_dresses': 0.5312693020382953, 'type_of_sleeves': 0.9204598937672293, 'length_of_trousers': 0.9507042253521126, 'design_of_dresses': 0.6598737083811711, 'type_of_trousers': 0.8755555555555555, 'thickness_of_clothes': 0.9982638888888888, 'type_of_waistlines': 0.8701168097779841, 'length_of_dresses': 0.8555223475071322, 'length_of_sleeves': 0.8611622403365764, 'type_of_clothes_buttons': 0.7698183670005092, 'length_of_upper_body_clothes': 0.9089897021987198}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5104659381286359, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6474940805051302, 'style_of_clothes': 0.6834067817358306, 'type_of_collars': 0.9630564590514102, 'fabric_of_clothes': 0.7961826028812838, 'type_of_dresses': 0.721432983323039, 'type_of_sleeves': 0.9598601492637665, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8537122081898201, 'type_of_trousers': 0.9407407407407408, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.986617157886594, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9529318958716803, 'type_of_clothes_buttons': 0.9519606178916992, 'length_of_upper_body_clothes': 1.0}
+
+
+26  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.4576559923159173, 'fitness_of_clothes': 0.8684442874801342, 'graphic_elements_texture': 0.516607471717969, 'style_of_clothes': 0.5253703023625903, 'type_of_collars': 0.9108694596825089, 'fabric_of_clothes': 0.6529694243511033, 'type_of_dresses': 0.5551266213712168, 'type_of_sleeves': 0.9228131513480804, 'length_of_trousers': 0.9366197183098591, 'design_of_dresses': 0.6780520474550326, 'type_of_trousers': 0.8696296296296296, 'thickness_of_clothes': 0.9985532407407407, 'type_of_waistlines': 0.8720507464995745, 'length_of_dresses': 0.8557940497215052, 'length_of_sleeves': 0.8711543518275046, 'type_of_clothes_buttons': 0.7752503819385503, 'length_of_upper_body_clothes': 0.9357083217367103}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5319596223200855, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.654498816101026, 'style_of_clothes': 0.6899253274574612, 'type_of_collars': 0.9670372348172241, 'fabric_of_clothes': 0.8006200230988998, 'type_of_dresses': 0.7218190240889438, 'type_of_sleeves': 0.9617427553284476, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8649062380405664, 'type_of_trousers': 0.9437037037037037, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9886284520770481, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9610833552458585, 'type_of_clothes_buttons': 0.9626548973009675, 'length_of_upper_body_clothes': 1.0}
+
+
+25  epoch
+length_of_upper_body_clothes [23, 24, 25, 26, 27]
+length_of_trousers [28, 29, 30, 31, 32]
+length_of_dresses [33, 34, 35, 36, 37]
+length_of_sleeves [38, 39, 40, 41, 42, 43, 44, 45]
+fitness_of_clothes [46, 47, 48, 49, 50]
+design_of_dresses [51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+type_of_sleeves [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]
+type_of_trousers [71, 72, 73, 74, 75, 76, 77]
+type_of_dresses [78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89]
+type_of_collars [90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+type_of_waistlines [100, 101, 102, 103, 104, 105, 106]
+type_of_clothes_buttons [107, 108, 109, 110, 111, 112, 113]
+thickness_of_clothes [114, 115, 116, 117]
+fabric_of_clothes [118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137]
+style_of_clothes [138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+part_details_of_clothes [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232]
+graphic_elements_texture [233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+overall_top3_recall is: 
+
+{'part_details_of_clothes': 0.44888453940810813, 'fitness_of_clothes': 0.8740950026487727, 'graphic_elements_texture': 0.5173967377006051, 'style_of_clothes': 0.5305728975394786, 'type_of_collars': 0.8933928831496675, 'fabric_of_clothes': 0.6554008874840436, 'type_of_dresses': 0.5315781346510191, 'type_of_sleeves': 0.9246285214818799, 'length_of_trousers': 0.9577464788732394, 'design_of_dresses': 0.6954649827784156, 'type_of_trousers': 0.8770370370370371, 'thickness_of_clothes': 0.9982638888888888, 'type_of_waistlines': 0.8861298058327531, 'length_of_dresses': 0.8608205406874067, 'length_of_sleeves': 0.8717240774826891, 'type_of_clothes_buttons': 0.7525038193855033, 'length_of_upper_body_clothes': 0.9105204564430838}
+
+
+overall_top5_recall is: 
+
+{'part_details_of_clothes': 0.5279363525979086, 'fitness_of_clothes': 1.0, 'graphic_elements_texture': 0.6547619047619048, 'style_of_clothes': 0.6925266250459052, 'type_of_collars': 0.9651924850720909, 'fabric_of_clothes': 0.798249346544283, 'type_of_dresses': 0.7181130327362569, 'type_of_sleeves': 0.9622806427754992, 'length_of_trousers': 1.0, 'design_of_dresses': 0.8672024492920015, 'type_of_trousers': 0.9555555555555556, 'thickness_of_clothes': 1.0, 'type_of_waistlines': 0.9944302622418194, 'length_of_dresses': 1.0, 'length_of_sleeves': 0.9546848978876326, 'type_of_clothes_buttons': 0.9414360889492446, 'length_of_upper_body_clothes': 1.0}
+
+
+24  epoch
+./new_top_3_5_recall.sh: line 3: 27750 Killed                  python new_top_3_5_recall.py --arch Resnet152 --batch_size 16 --gpuId 1

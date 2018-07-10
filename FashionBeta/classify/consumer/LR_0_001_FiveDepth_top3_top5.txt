@@ -1,0 +1,5 @@
+7 epoch
+top-3  part_details_of_clothes  fitness_of_clothes  graphic_elements_texture  style_of_clothes  type_of_collars  fabric_of_clothes  type_of_dresses  type_of_sleeves  length_of_trousers  design_of_dresses  type_of_trousers  thickness_of_clothes  type_of_waistlines  length_of_dresses  length_of_sleeves  type_of_clothes_buttons  length_of_upper_body_clothes  
+44.521  73.883  48.681  50.049  90.98  66.689  48.525  91.71  87.324  57.424  88.889  99.913  84.521  84.357  86.015  77.508  93.028  
+top-5  part_details_of_clothes  fitness_of_clothes  graphic_elements_texture  style_of_clothes  type_of_collars  fabric_of_clothes  type_of_dresses  type_of_sleeves  length_of_trousers  design_of_dresses  type_of_trousers  thickness_of_clothes  type_of_waistlines  length_of_dresses  length_of_sleeves  type_of_clothes_buttons  length_of_upper_body_clothes  
+52.303  100.0  62.911  67.667  96.888  78.749  67.928  95.522  100.0  83.783  94.667  100.0  96.751  100.0  95.346  96.792  100.0  
