@@ -1,0 +1,282 @@
+280
+attribute_name (Chinese)         attribute_name (English)                     attribute_type
+TOPS/Summer_Wear                        What the fuck!                        1
+TOPS/Coat                        What the fuck!                        1
+TOPS/Tank_Top                        What the fuck!                        1
+TOPS/Blouse                        What the fuck!                        1
+TOPS/Chiffon                        What the fuck!                        1
+TOPS/T_Shirt                        What the fuck!                        1
+TOPS/Lace_Shirt                        What the fuck!                        1
+CLOTHING/Summer_Wear                        What the fuck!                        1
+CLOTHING/Jeans                        What the fuck!                        1
+CLOTHING/Coat                        What the fuck!                        1
+CLOTHING/Tank_Top                        What the fuck!                        1
+CLOTHING/Polo_Shirt                        What the fuck!                        1
+CLOTHING/Pants                        What the fuck!                        1
+CLOTHING/Blouse                        What the fuck!                        1
+CLOTHING/T_Shirt                        What the fuck!                        1
+DRESSES/Skirt                        What the fuck!                        1
+DRESSES/Lace_Dress                        What the fuck!                        1
+DRESSES/Dress                        What the fuck!                        1
+DRESSES/Sleeveless_Dress                        What the fuck!                        1
+DRESSES/Suspenders_Skirt                        What the fuck!                        1
+TROUSERS/Summer_Wear                        What the fuck!                        1
+TROUSERS/Pants                        What the fuck!                        1
+TROUSERS/Leggings                        What the fuck!                        1
+超短                        What the fuck!                        2
+短                        What the fuck!                        2
+中                        What the fuck!                        2
+中长                        What the fuck!                        2
+长                        What the fuck!                        2
+短裤                        Short pants                        3
+半裤                        What the fuck!                        3
+七分裤                        Three quarter pants                        3
+九分裤                        Cropped pants                        3
+长裤                        Long pants                        3
+超短裙                        What the fuck!                        4
+短裙                        Above Knee                        4
+中裙                        Knee                        4
+中长裙                        What the fuck!                        4
+长裙                        Midi                        4
+无袖                        Sleeveless                        5
+短袖                        Short Sleeves                        5
+五分袖                        Half Sleeves                        5
+七分袖                        3/4 Sleeves                        5
+九分袖                        Long Sleeves                        5
+长袖                        Long Sleeves                        5
+吊带                        Strap                        5
+背带                        Suspenders                        5
+宽松                        Wide/Loose                        6
+修身                        Slim Fit                        6
+H型（直身）                        Rectangle-shaped                        6
+X型（收腰）                        Hourglass-shaped                        6
+A型                        Pear-shaped                        6
+衣裙套装                        Ensemble                        7
+衣裤套装                        Pantsuit/Trouser suit                        7
+套头                        Pullover                        7
+吊带                        Strap                        7
+修身                        Slim Fit                        7
+直筒                        Rectangle-shaped                        7
+阔脚                        Wide Leg                        7
+背带                        Suspenders                        7
+开衫                        Cardigan                        7
+工字型                        H-shaped                        7
+常规袖                        Regular Sleeves                        8
+蝙蝠袖                        Batwing Sleeves                        8
+荷叶袖                        Bufferfly/Angel Sleeves                        8
+泡泡袖                        Puff Sleeves                        8
+喇叭袖                        Flare Sleeves                        8
+插肩袖                        Raglan                        8
+灯笼袖                        Puff Sleeves                        8
+衬衫袖                        French Cuff                        8
+飞飞袖                        Bufferfly Sleeves                        8
+公主袖                        Leg-of-mutton Sleeve                        8
+小脚                        What the fuck!                        9
+阔腿                        What the fuck!                        9
+修身                        Slim Fit                        9
+背带                        Suspenders                        9
+垮裤                        Baggy pants                        9
+宽松                        Wide/Loose                        9
+直筒                        Rectangle-shaped                        9
+A字裙                        A-lined Dress                        10
+大摆型                        Tent Dress                        10
+公主裙                        Princess Dress                        10
+直筒裙                        Barrel Dress                        10
+包臀裙                        Bodycon                        10
+百褶裙                        Skirt with accordion pleats                        10
+背带裙                        Jumper Skirt                        10
+蓬蓬裙                        Pouf dress                        10
+一步裙                        Sheath dress                        10
+荷叶边裙                        Flounce dress                        10
+不规则裙                        Ragged dress                        10
+蛋糕裙                        Tiered skirt                        10
+圆领                        Crewneck                        11
+翻领                        What the fuck!                        11
+V领                        V-neck                        11
+立领                        Stand Collar                        11
+一字领                        Boat Neck                        11
+连帽                        Hoodies                        11
+娃娃领                        Doll Collar                        11
+方领                        Square Collar                        11
+西装领                        Classic Collar                        11
+半开领                        V-neck                        11
+中腰                        Medium Rise                        12
+高腰                        High Rise                        12
+宽松腰                        Loose Waist                        12
+松紧腰                        Elastic Waist                        12
+低腰                        Low Rise                        12
+中低腰                        Medium to Low Rise                        12
+自然腰                        Natural Waist                        12
+无扣                        No button                        13
+拉链                        Zip                        13
+单排扣                        Single breasted                        13
+套头                        Pullover                        13
+多粒单排扣                        Single breasted                        13
+系带                        Lacing clothing                        13
+一粒扣                        One button                        13
+超薄                        Very thin                        14
+薄                        What the fuck!                        14
+普通                        Regular thickness                        14
+加厚                        Thick                        14
+棉                        Cotton                        15
+雪纺                        Chiffon                        15
+混纺                        Blended yarn                        15
+棉麻                        Part linen                        15
+蕾丝                        Lace                        15
+牛仔                        Jeans cloth                        15
+欧根纱                        Organza                        15
+针织                        Knitted                        15
+复合                        Mixed                        15
+麻                        Hemp                        15
+聚酯纤维                        Polyester                        15
+化纤                        Chemical fiber                        15
+棉布                        Cotton                        15
+网纱                        Silk lace gauze                        15
+棉混纺布                        Cotton mixed fabrics                        15
+锦纶                        Polyamide                        15
+莫代尔                        Model                        15
+太空棉（空气层）                        Space cotton                        15
+毛呢                        Wool                        15
+抓绒                        Fleece                        15
+日韩                        Japan/Korean                        16
+学院                        College                        16
+小清新                        Fresh                        16
+甜美                        Sweet                        16
+基本款                        Basic                        16
+轻熟                        Young adult                        16
+运动                        Sportswear                        16
+复古                        Retro                        16
+卡哇伊                        Kawaii                        16
+欧美                        Western                        16
+森系                        Forest living style                        16
+街头                        Street fashion                        16
+民族                        Folk costume                        16
+男友风                        Boyfriend-style                        16
+田园                        Garden                        16
+嬉皮                        Hippie                        16
+朋克                        Punk                        16
+商务                        Business                        16
+西部                        Western                        16
+波西米亚                        Bohemian                        16
+休闲                        Casual                        16
+韩版                        Korean                        16
+通勤                        OL                        16
+水洗                        Stonewashed                        17
+松紧                        Slacks                        17
+打褶                        Pleated                        17
+透视                        See-through                        17
+磨白                        Sanded                        17
+露肩                        Off-the-shoulder                        17
+插袋                        In-seam Pocket                        17
+短裤套装                        Short pants sets                        17
+荷叶边                        Flounce                        17
+系带                        Lacing clothing                        17
+做旧                        Aged clothing                        17
+蝴蝶结                        Bow                        17
+绣花                        Embroidery                        17
+抽绳                        Drawstrings                        17
+不规则下摆                        Irregular hem                        17
+百褶                        Pleated                        17
+前短后长                        Declining                        17
+开衩                        Slit                        17
+蕾丝                        Lace                        17
+贴袋                        Patch pocket                        17
+刺绣                        Embroidery                        17
+流苏                        Tassels                        17
+翻边                        Cuffed                        17
+拉链                        Zip                        17
+纽扣                        Buttons                        17
+背带                        Suspenders                        17
+长裤套装                        Long pants sets                        17
+口袋                        Pockets                        17
+系腰带                        Waistbelt                        17
+纽扣装饰                        Button decorations                        17
+露背                        Backless                        17
+多袋                        Multi pockets                        17
+拉链装饰                        Zip decorations                        17
+假两件                        Layered-look                        17
+钉珠                        Beadings                        17
+立体花朵                        Flower decorations                        17
+毛边                        Raw edged clothing                        17
+贴布                        Patch cloth                        17
+层叠                        Layered-look                        17
+金属装饰                        Metal decorations                        17
+开叉                        Slit                        17
+贴布绣                        Appliqué                        17
+多层（类似蛋糕）                        Layered-look                        17
+铆钉                        Rivets                        17
+露腰                        Midriff                        17
+松紧腰                        Elastic Waist                        17
+吊带                        Strap                        17
+钩花                        Crochet                        17
+磨破                        Frazzle clothing                        17
+罗纹                        Ribbed                        17
+网纱                        Silk lace gauze                        17
+单排扣                        Single breasted                        17
+波浪边                        Waved edge                        17
+不规则                        Ragged                        17
+木耳边                        Waved edge                        17
+蕾丝边                        Lace                        17
+涂鸦                        Graffiti                        17
+卷边                        Hem seam                        17
+褶皱                        Plicate                        17
+立体袋                        Pockets                        17
+裙摆                        Skirts                        17
+无袖                        Sleeveless                        17
+亮片                        Paillette                        17
+圆领                        Crewneck                        17
+抓纹                        Terrycloth                        17
+一字袋                        Pocket dress                        17
+套头                        Pullover                        17
+两件套                        Two-pieced sets                        17
+压花                        Embossed                        17
+打摺                        Pleated                        17
+破洞                        Holed                        17
+镂空                        Hollow                        17
+纯色                        Solid Colour/Pure Colour                        18
+字母                        Alphabets/Letters                        18
+细条纹                        Thin Stripes                        18
+卡通                        Cartoon                        18
+碎花                        Floral Printing                        18
+花卉                        Floral/Flowers                        18
+格纹                        Plaid                        18
+人物                        People                        18
+粗条纹                        Thick Stripes                        18
+几何                        Geometric                        18
+大花                        Floral/Flowers                        18
+条纹                        Stripes                        18
+波点                        Polka Dotted                        18
+印花                        Printing                        18
+动物                        Animals                        18
+植物                        Plants                        18
+抽象                        Abstract                        18
+米老鼠                        Mickey Mouse                        18
+猫                        Cat/Kitten                        18
+花朵                        Floral/Flowers                        18
+数字                        Numbers                        18
+细格纹                        Small plaid                        18
+狗                        Dog                        18
+迷彩                        Camouflage                        18
+格子                        Plaid                        18
+唐老鸭                        Donald Duck                        18
+logo                        Logo                        18
+渐变                        Fade Colour                        18
+扎染                        Tie-dye                        18
+小鸟                        Bird                        18
+星星                        Star                        18
+花色                        Pattern                        18
+波普                        Pop                        18
+兔子                        Bunny                        18
+小鹿                        Fawn/Deerlet                        18
+猫头鹰                        Owl                        18
+五角星                        Pentacle/Pentagram/Star                        18
+竖条纹                        Vertical stripes                        18
+拼接                        Splice                        18
+镂空                        Hollow                        18
+蕾丝                        Lace                        18
+格紋                        Plaid                        18
+撞色                        Contrast Colour                        18
+绣花                        Embroidery                        18
+多层次                        Multi-layered                        18
+不规则                        Ragged                        18
+荷叶边                        Flounce                        18

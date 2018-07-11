@@ -2,3 +2,5 @@ torchvision
 numpy
 csv
 json
+opencv-python
+Pillow

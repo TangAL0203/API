@@ -2,7 +2,7 @@
 import json
 import os, sys
 
-fashionApiPath = os.path.abspath(os.path.join(os.getcwd(),'..'))
+fashionApiPath = os.path.abspath(os.path.join(os.getcwd(),'../../'))
 json_path = os.path.join(fashionApiPath,"config.json")
 
 def readJson():
@@ -10,24 +10,6 @@ def readJson():
     s = json.load(f)
     print("read json is ok!")
     return s
-    
-def getDetectConfig():
-    s = readJson()
-    rootPath           = s["rootPath"]
-    detectModelPath    = os.path.join(rootPath, s["detectModelPath"])
-    detectNamePath     = os.path.join(rootPath, s["detectNamePath"])
-    detectSavePath     = os.path.join(rootPath, s["detectSavePath"])
-    detectThresh       = s["rootPath"]
-
-    return rootPath, detectModelPath, detectNamePath, detectSavePath, detectThresh
-
-def getCategoryConfig():
-    s = readJson()
-    rootPath           = s["rootPath"]
-    categoryModelPath  = os.path.join(rootPath, s["categoryModelPath"])
-    categoryNamePath   = os.path.join(rootPath, s["categoryNamePath"])
-
-    return rootPath, categoryModelPath, categoryNamePath
 
 
 def getAttrConfig():
@@ -35,8 +17,9 @@ def getAttrConfig():
     rootPath           = s["rootPath"]
     attrModelPath      = os.path.join(rootPath, s["attrModelPath"])
     attrNamePath       = os.path.join(rootPath, s["attrNamePath"])
+    attrSavePath       = os.path.join(rootPath, s["attrSavePath"])
 
-    return rootPath, attrModelPath, attrNamePath
+    return rootPath, attrModelPath, attrNamePath, attrSavePath
 
 
 

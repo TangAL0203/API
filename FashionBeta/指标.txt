@@ -1,5 +1,9 @@
 一、检测任务
-10类：hat，sunglass，upperclothes，skirt，pants，dress，belt，shoe，bag，scarf
+10类：
+hat，sunglass，upperclothes，skirt，pants，dress，belt，shoe，bag，scarf
+帽子，太阳镜，上衣，短裙，裤子，长裙，腰带，鞋子，袋子，围巾
+0     1         2     3    4     5     6     7    8     9
+
 训练集：14118
 验证集：1768
 目前MAP：77.16
@@ -12,10 +16,17 @@ Top1 Acc:
 Top3 Acc: 
 Top5 Acc: 
 
+可能需要做分类的检测出来的物体：上衣，短裙，裤子，长裙
+需要做分类的检测出来的物体：上衣，裤子
+
 
 
 属性预测任务
 十个属性：袖型、领型、衣门襟、袖长、腰型、裤型、衣长、裙长、裤长、群款式
+
+
+
+
 Consumer上指标：
 属性          Top3        Top5
 袖型   
